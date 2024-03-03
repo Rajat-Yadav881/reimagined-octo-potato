@@ -12,7 +12,7 @@ function Quiz(){
         if(Question[currentQuestion].asnwer == optionChosen){
             setScore(score + 1);
         }
-        alert(score);
+   
         setCurrentQuestion(currentQuestion + 1);
     }
     const finishQuiz = ()=>{
